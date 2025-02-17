@@ -1,0 +1,28 @@
+{
+    "name": "HelloWorldAgent",
+    "model": "text-davinci-003",
+    "system_prompt": "Be concise and answer in one sentence.",
+    "query": "Where does 'Hello World' come from?",
+    "temperature": 0.9,
+    "tasks": [
+        {
+            "task_name": "greet",
+            "params": {
+                "message": "Hello from the task runner!"
+            }
+        },
+        {
+            "task_name": "compute",
+            "params": {
+                "x": 5,
+                "y": 7
+            }
+        },
+        {
+            "task_name": "sleep",
+            "params": {
+                "duration_sec": 2
+            }
+        }
+    ]
+}

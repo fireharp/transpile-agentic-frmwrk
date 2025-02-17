@@ -1,0 +1,14 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+.DS_Store
+.pytest_cache
+.vscode
+.idea
+.venv
+.env
+.env.local
+

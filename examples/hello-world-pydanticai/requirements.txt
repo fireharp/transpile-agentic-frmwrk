@@ -1,0 +1,2 @@
+pydantic-ai>=0.0.24
+pytest>=7.0.0 
